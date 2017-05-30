@@ -1,0 +1,17 @@
+.Checkbox {
+    &__checkbox {
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &__label {
+        padding-left: 20px;
+        flex-basis: 70%;
+        cursor: pointer;
+    }
+}
+.Checkbox__label + span {
+  flex-basis: 30%;
+  text-align: right;
+}
